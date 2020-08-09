@@ -1,0 +1,19 @@
+{
+  "name": "p5-playground",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Alex Rosenkranz <alex.rosenkranz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "echo $npm_config_folder && parcel ./src/$npm_config_folder/index.html --out-dir ./dist/$npm_config_folder",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "commander": "^6.0.0",
+    "p5": "^1.1.9",
+    "parcel-bundler": "^1.12.4"
+  },
+  "bin": {
+    "p5": "./bin/index.js"
+  }
+}
