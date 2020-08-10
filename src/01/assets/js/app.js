@@ -7,6 +7,7 @@ let s = (sk) => {
     gfx = sk.createGraphics(window.innerWidth, window.innerHeight);
     sk.createCanvas(window.innerWidth, window.innerHeight);
     sk.background(40);
+
     gfx.stroke(200);
     gfx.strokeWeight(3);
 
@@ -26,4 +27,3 @@ let s = (sk) => {
 };
 
 const myp5 = new P5(s);
-console.log(myp5);
